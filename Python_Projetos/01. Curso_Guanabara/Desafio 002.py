@@ -1,4 +1,4 @@
-#Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.
+#Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas. (Aula 4)
 
 meu_nome = input('Digite o seu nome:')
 msg = meu_nome
