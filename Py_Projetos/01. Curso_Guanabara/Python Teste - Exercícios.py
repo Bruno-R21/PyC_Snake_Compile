@@ -1,4 +1,5 @@
-from utils import soma
+from utils import *
+
 
 print(soma(5, 10))
 
