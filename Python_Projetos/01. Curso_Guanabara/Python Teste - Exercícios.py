@@ -1,4 +1,4 @@
-from myBox.utils import soma
+from utils import soma
 
 print(soma(5, 10))
 
