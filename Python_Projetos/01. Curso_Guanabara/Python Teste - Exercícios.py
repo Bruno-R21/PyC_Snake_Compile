@@ -1,3 +1,4 @@
-nome = input('Qual é o seu nome?')
-print('prazer em te conhecer {}!'.format(nome))
- 
+from myBox.utils import soma
+
+print(soma(5, 10))
+
