@@ -1,7 +1,7 @@
 def soma(a, b):
     return a + b
 
-def sub (a, b):
+def subtrair (a, b):
     return a - b
 
 def mult (a, b):
