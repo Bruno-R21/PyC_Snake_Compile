@@ -1,13 +1,13 @@
 # (Desafio 21) Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.
 
-import pygame 
+'''import pygame 
 pygame.init()
 
-pygame.mixer.music.load('Sorriso.wav')
+pygame.mixer.music.load('Sorriso.mp3')
 pygame.mixer.music.play()
-pygame.event.wait()
+pygame.event.wait()'''
 
-'''import pygame
+import pygame
 import os
 pygame.init()
 
@@ -24,7 +24,7 @@ if os.path.exists('Sorriso.wav'):
         clock.tick(10)
 
 else:
-    print('O arquivo Sorriso.wav não funcionando')'''
+    print('O arquivo Sorriso.wav não funcionando')
 
 #Infelizmente por problemas de atualização do Python e da descontinuidade da bliblioteca pygame, não consegui fazer o código funcionar.     
 
