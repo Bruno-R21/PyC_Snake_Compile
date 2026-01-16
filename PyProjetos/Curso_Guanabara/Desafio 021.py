@@ -7,6 +7,27 @@ pygame.mixer.music.load('Sorriso.mp3')
 pygame.mixer.music.play()
 pygame.event.wait()'''
 
+'''import pygame
+import os
+pygame.init()
+
+if os.path.exists('Sorriso.wav'):
+    pygame.mixer.music.load('Sorriso.wav')
+    pygame.mixer.music.play()
+    pygame.mixer.music.set_volume(1)
+
+    clock = pygame.time.Clock()
+    clock.tick(10)
+
+    while pygame.mixer.music.get_busy():
+        pygame.event.poll()
+        clock.tick(10)
+
+else:
+    print('O arquivo Sorriso.wav não funcionando')'''
+
+#Infelizmente por problemas de atualização do Python e da descontinuidade da bliblioteca pygame, não consegui fazer o código funcionar.     
+
 import pygame
 import os
 pygame.init()
@@ -16,19 +37,15 @@ if os.path.exists('Sorriso.wav'):
     pygame.mixer.music.play()
     pygame.mixer.music.set_volume(1)
 
-    clock = pygame.time.clock()
+    clock = pygame.time.Clock()  # Corrigido: pygame.time.Clock() (com maiúscula)
     clock.tick(10)
 
     while pygame.mixer.music.get_busy():
-        pygame.event.poll()
+        pygame.event.wait()  # Corrigido: usar wait() para aguardar eventos, em vez de poll()
         clock.tick(10)
 
 else:
-    print('O arquivo Sorriso.wav não funcionando')
-
-#Infelizmente por problemas de atualização do Python e da descontinuidade da bliblioteca pygame, não consegui fazer o código funcionar.     
-
-
+    print('O arquivo Sorriso.wav não foi encontrado.')
 
 
 
