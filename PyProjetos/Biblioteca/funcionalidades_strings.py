@@ -6,7 +6,7 @@ print('1º ->',frase[9:14]) #fatiamento da string para pegar a palavra "curso" -
 print('1.1º ->',frase[:5]) #fatiamento da string para pegar a palavra "bruno" --> obs: O "5" não é incluído, pega até o índice 4
 print('1.2º ->',frase[1:12:2]) #fatiamento da string com passo 2
 print('2º ->',frase.count("u")) #conta quantas vezes o caractere "u" aparece na string
-print('3º ->',frase.replace("bruno", "Bruno")) #substitui a palavra "bruno" por "Bruno"
+print('3º ->',frase.replace("bruno", "Bruno")) #substitui a palavra "bruno" por "Bruno" na string --> obs: A string original não é alterada, para alterar a string original é necessário atribuir o resultado a uma nova variável ou à própria variável original - frase = frase.replace("bruno", "Bruno")
 print('4º ->',frase.upper()) #converte todos os caracteres da string para maiúsculo
 print('5º ->',frase.lower()) #converte todos os caracteres da string para minúsculo
 print('6º ->',frase.capitalize()) #converte o primeiro caractere da string para maiúsculo
