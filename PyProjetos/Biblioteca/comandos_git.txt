@@ -1,0 +1,109 @@
+*******************************************************************
+🧠 Fluxo básico (decora isso)
+
+Esse é o caminho padrão no dia a dia:
+
+git status
+git add .
+git commit -m "mensagem clara"
+git push
+
+*******************************************************************
+
+Comandos básicos (uso diário)
+
+git init
+> Inicializa um repositório Git na pasta atual.
+Use uma vez, quando o projeto ainda não tem Git.
+
+git status
+> Mostra o estado atual do repositório:
+arquivos modificados
+arquivos não rastreados
+o que está pronto para commit
+👉 É o comando mais usado.
+
+git add .
+> Adiciona todos os arquivos modificados à área de preparação (stage).
+
+Diz ao Git: “esses arquivos entram no próximo commit”.
+
+📌 Também existe:
+git add nome_do_arquivo.py
+
+git commit -m "mensagem"
+> Cria um registro oficial das mudanças.
+A mensagem deve explicar o que foi feito.
+
+Exemplo:
+git commit -m "Adiciona exercícios de lógica em Python"
+
+git log
+> Mostra o histórico de commits:
+autor
+data
+mensagem
+hash
+
+git log --pretty=oneline (mais usado e relação ao git log)
+> Exibe o histórico de commits de forma resumida, mostrando um commit por linha, com hash + mensagem.
+
+👉 Útil pra acompanhar a evolução do projeto.
+
+🔹 Comandos de conexão com GitHub
+
+git branch
+> Mostra as branches existentes.
+A branch principal costuma ser main.
+
+git branch -M main
+> Renomeia a branch atual para main.
+
+Muito usado em projetos novos.
+
+git remote add origin URL
+> Conecta o projeto local a um repositório no GitHub.
+
+Exemplo:
+git remote add origin https://github.com/seu-usuario/seu-repo.git
+
+git push -u origin main
+> Envia os commits locais para o GitHub.
+
+-u define o padrão
+depois disso, basta usar git push
+
+git pull
+> Atualiza o projeto local com as mudanças do GitHub.
+
+Use quando trabalha em mais de um computador.
+
+git clone URL
+> Copia um repositório do GitHub para o seu PC.
+
+Exemplo:
+git clone https://github.com/seu-usuario/seu-repo.git
+
+🔹 Comandos de comparação e correção
+
+git diff
+> Mostra o que mudou no código antes do commit.
+
+git checkout -- arquivo
+> Descarta mudanças em um arquivo específico.
+
+⚠️ Cuidado: não tem volta.
+
+git reset
+> Remove arquivos do stage sem apagar o código.
+
+Exemplo:
+git reset arquivo.py
+
+🔹 Comandos úteis para organização
+
+git rm arquivo
+> Remove um arquivo do projeto e do controle do Git.
+
+git mv antigo.py novo.py
+> Renomeia arquivos mantendo o histórico.
