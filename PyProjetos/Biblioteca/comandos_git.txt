@@ -107,3 +107,16 @@ git rm arquivo
 
 git mv antigo.py novo.py
 > Renomeia arquivos mantendo o histórico.
+
+✅ Como corrigir io terminal está mostrando os acentos em codificação UTF-8. (mostrar acentos normalmente)
+
+Execute este comando no terminal:
+
+git config --global core.quotepath false
+
+O que esse comando faz:
+core.quotepath false 
+> faz o Git mostrar os nomes com acentos normalmente.
+
+--global
+> aplica para todos os seus repositórios.
