@@ -1,0 +1,19 @@
+*******************************************************************
+🎯 Caracteres de escape (tabela)
+
+Escape	      Significado	              Emoji
+\n	       Nova linha (enter)	           ⬇️
+\t	    Tabulação (espaço grande)	       ➡️
+\\          Barra invertida	               🔙
+\'	       Mantén as Aspa simples	        '
+\"	       Mantén as Aspa duplas        	"
+\r	      Volta ao início da linha	       🔄
+\b      Apaga caractere (Backspace)	       ⌫
+\f	           Nova página	               📄
+\v	     Tab vertical (tabulação)	       📏
+\a	       Alerta sonoro (Beep)            🔔
+\0	   Caractere nulo (Invisível)          ⚫
+\xhh 	       Hexadecimal	               🔢
+\ooo	            Octal	               🔢
+\uXXXX	          Unicode (4)	           ❤	   
+\UXXXXXXXX	      Unicode (8)              😀	
