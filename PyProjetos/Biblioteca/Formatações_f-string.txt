@@ -1,0 +1,43 @@
+Resumo de Formatações em Python (f-strings)
+
+     🔢 Formatações de números inteiros
+Formato	        O que faz	        Exemplo	  Resultado	   Emoji
+{n}	           Número normal	    f"{10}"	      10	    🔢
+{n:b}	          Binário	        f"{10:b}"	 1010	    💻
+{n:o}	           Octal            f"{10:o}"	  12    	🧮
+{n:x}	    Hexadecimal minúsculo	f"{10:x}"	  a	        🔡
+{n:X}	    Hexadecimal maiúsculo	f"{10:X}"     A     	🔠
+{n:d}	       Decimal explícito	f"{10:d}"	  10	    🔟
+
+      💰 Formatações de números decimais (float)
+Formato	O que faz	Exemplo	Resultado	Emoji
+{n:f}	Float padrão	f"{3.5:f}"	3.500000	💧
+{n:.2f}	2 casas decimais	f"{3.1415:.2f}"	3.14	🎯
+{n:.3f}	3 casas decimais	f"{3.1415:.3f}"	3.142	📏
+{n:.0f}	Sem casas decimais	f"{3.9:.0f}"	4	🔄
+{n:e}	Notação científica	f"{1500:e}"	1.500000e+03	🔬
+{n:.2e}	Científica com 2 casas	f"{1500:.2e}"	1.50e+03	🧪
+{n:%}	Porcentagem	f"{0.25:%}"	25.000000%	📊
+{n:.1%}	Porcentagem com 1 casa	f"{0.25:.1%}"	25.0%	📈
+
+       📐 Alinhamento e largura de campo
+Formato	O que faz	Exemplo	Resultado	Emoji
+{t:10}	Espaço total 10 caracteres	f"{'Oi':10}"	'Oi '	📦
+{t:>10}	Alinha à direita	f"{'Oi':>10}"	' Oi'	➡️
+{t:<10}	Alinha à esquerda	f"{'Oi':<10}"	'Oi '	⬅️
+{t:^10}	Centraliza	f"{'Oi':^10}"	' Oi '	🎯
+
+       🔒 Preenchimento com caracteres
+Formato	O que faz	Exemplo	Resultado	Emoji
+{n:05}	Completa com zeros	f"{42:05}"	00042	🧱
+{n:0>5}	Zeros à esquerda	f"{42:0>5}"	00042	🔢
+{t:*^10}	Centraliza com *	f"{'Oi':*^10}"	Oi	⭐
+{t:-<10}	Preenche com - à direita	f"{'Oi':-<10}"	Oi--------	➖
+       💱 Formatações especiais
+Formato	O que faz	Exemplo	Resultado	Emoji
+{n:,}	Separador de milhar	f"{1000000:,}"	1,000,000	💰
+{n:_}	Separador com _	f"{1000000:_}"	1_000_000	🧩
+{n:+}	Mostra o sinal	f"{10:+}"	+10	➕
+{n: }	Espaço para positivo	f"{10: }"	10	⬜
+{n:#b}	Binário com prefixo	f"{10:#b}"	0b1010	🖥️
+{n:#x}	Hex com prefixo	f"{10:#x}"	0xa	🧠
