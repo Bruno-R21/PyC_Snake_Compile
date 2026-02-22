@@ -94,6 +94,14 @@ git checkout -- arquivo
 
 ⚠️ Cuidado: não tem volta.
 
+🚀 Como tirar um arquivo da área do commit?
+
+git restore
+> Remove o arquivo da staging área, mas mantém suas alterções no arquivo.
+
+Exemplo:
+git restore --staged arquivo.py
+
 git reset
 > Remove arquivos do stage sem apagar o código.
 
