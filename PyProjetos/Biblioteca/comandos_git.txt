@@ -128,3 +128,43 @@ core.quotepath false
 
 --global
 > aplica para todos os seus repositórios.
+
+✅ Como resolver de vez
+👉 Passo 1 — adicionar seus arquivos .c
+git add .
+
+ou (melhor prática):
+
+git add *.c
+
+🧠 Dica de ouro (nível profissional)
+
+Se quiser ver tudo sempre:
+
+git status -uall
+
+🚨 CALMA — COMO VOLTAR AO NORMAL
+
+Você quer voltar exatamente como estava antes.
+
+✅ Solução rápida (perfeita pra isso):
+git restore --staged .
+
+O que esse comando faz:
+
+👉 Ele desfaz tudo que está em verde
+👉 Volta os arquivos para o estado anterior
+
+💡 Forma correta pro seu caso (mais segura)
+
+Pra ignorar só .exe, o ideal era:
+
+git rm --cached *.exe
+
+👉 Bem mais seguro — não mexe no resto
+
+🔥 Resumo (guarda isso)
+Comando	O que faz
+git rm --cached *.exe	remove só exe do Git
+git rm -r --cached .	remove TUDO do Git ⚠️
+git restore --staged .	desfaz bagunça no stage ✅
