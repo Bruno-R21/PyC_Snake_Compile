@@ -1,5 +1,41 @@
 /* 
-Abaixo segue o c√≥digo criado na Atv4.
-Refatore o c√≥digo para atender a seguinte regra de neg√≥cio: Quando o cliente informar um c√≥digo inv√°lido, o programa dever√° retornar ao menu solicitando que insira novamente a op√ß√£o.
+Abaixo segue o cÛdigo criado na Atv4.
+Refatore o cÛdigo para atender a seguinte regra de negÛcio: Quando o cliente informar um cÛdigo inv·lido, o programa dever· retornar ao menu solicitando que insira novamente a opÁ„o.
 */
 
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+   setlocale(LC_ALL, "Portuguese");
+   int opcao;
+
+   do
+   {
+      printf("\nDigite 1 para Coca-cola.");
+      printf("\nDigite 2 para Guaran·.");
+      printf("\nDigite 3 para Fanta.");
+      printf("\nInforme a sua opÁ„o de refrigerante: ");
+      scanf("%d", &opcao);
+
+      switch (opcao)
+      {
+      case 1:
+         printf("\n”tima escolha! \nNada como uma Coca-cola bem gelada.");
+         break;
+      case 2:
+         printf("\nMandou bem! \nGuaran·, um sabor brasileiro.");
+         break;
+      case 3:
+         printf("\nPerfeito! \nFanta È sabor e divers„o.");
+         break;         
+      default:
+            printf("\nOpÁ„o inv·lida.");
+      }
+   } while (opcao < 1 || opcao > 3);
+
+   printf("\nCompra finalizada! \nAproveite seu refrigerante.");
+
+   return 0;
+}   
