@@ -11,7 +11,7 @@ int main(){
     char nome[50];
 
     printf("Informe o seu primeiro nome: ");
-    scanf("%49s", nome);
+    scanf("%49[^\n]s", nome);
 
     printf("\nOlá %s, seja bem-vindo!", nome);
 
