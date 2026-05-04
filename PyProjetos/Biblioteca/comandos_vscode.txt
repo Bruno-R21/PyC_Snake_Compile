@@ -1,0 +1,100 @@
+⚙️ Dica importante (VSCode organiza sozinho)
+
+Você também pode formatar tudo automaticamente:
+
+👉 Atalho:
+Shift + Alt + F
+
+Isso:
+
+Corrige indentação
+Organiza o código
+Aplica padrão da linguagem (C, JS, etc.)
+
+********************************************************************
+🚀 GUIA ESSENCIAL DE ATALHOS — VS CODE (C)
+✍️ Edição de código
+🔹 Indentação (o que você perguntou)
+Tab            → avançar (indent)
+Shift + Tab    → recuar
+🔹 Mover linhas
+Alt + ↑ / ↓    → move linha para cima/baixo
+🔹 Duplicar linha
+Shift + Alt + ↓
+🔹 Deletar linha inteira
+Ctrl + Shift + K
+🔹 Seleção inteligente
+Shift + Alt + ↓ / ↑ → múltiplos cursores
+Ctrl + D            → seleciona próxima ocorrência
+Ctrl + Shift + L    → seleciona todas iguais
+⚡ Produtividade pesada (nível profissional)
+🔹 Renomear variável em tudo
+F2
+
+👉 MUITO útil em C pra evitar erro
+
+🔹 Ir para definição
+Ctrl + Clique
+ou
+F12
+🔹 Voltar
+Alt + ←
+🔹 Ver documentação rápida
+Ctrl + Hover (passar o mouse)
+
+🔍 Navegação
+🔹 Buscar no arquivo
+Ctrl + F
+🔹 Buscar no projeto inteiro
+Ctrl + Shift + F
+🔹 Ir para linha
+Ctrl + G
+🔹 Ir para arquivo
+Ctrl + P
+
+🧠 Organização automática
+🔹 Formatar código
+Shift + Alt + F
+🔹 Organizar includes (dependendo da extensão)
+Shift + Alt + O
+
+🛠️ Compilação / Terminal
+🔹 Abrir terminal
+Ctrl + '
+🔹 Executar comando anterior
+↑
+🔹 Limpar terminal
+cls   (Windows)
+clear (Linux/Mac)
+
+⚙️ IntelliSense (auto-complete)
+🔹 Forçar sugestão
+Ctrl + Space
+🔹 Aceitar sugestão
+Tab ou Enter
+
+🧩 Comentários
+🔹 Comentar linha
+Ctrl + /
+🔹 Comentar bloco
+Shift + Alt + A
+
+🔥 Nível avançado (pouca gente usa, mas muda o jogo)
+🔹 Seleção em coluna (vertical)
+Alt + Shift + arrastar mouse
+🔹 Multi cursor manual
+Alt + Clique
+🔹 Expandir seleção inteligente
+Shift + Alt + →
+Shift + Alt + ←
+
+💡 DICAS DE OURO (pra C especificamente)
+
+Sempre use:
+
+Shift + Alt + F
+
+antes de entregar código
+
+Use F2 pra renomear variáveis → evita bugs
+Use Ctrl + D pra editar várias ocorrências (ex: trocar nota1 → notaFinal)
